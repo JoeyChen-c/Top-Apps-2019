@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+header img {
+	width: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('images/STEVE-Jobs black and white.jpg');
+
+  /* Set a specific height */
+  min-height: 450px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li {
+	padding: 15px;
+}
+
+h1{
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	marigin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #5092C1;
+}
+
+nav li {
+	float: right;
+}
+
+nav li a {
+	top: 0;
+	display: block;
+	text-align: center;
+	padding: 25px 16px;
+	text-decoration: none;
+	font-size: 120%;
+	font-family: 'Playfair Display', serif;
+	color: white;
+}
+
+nav li a:hover,
+footer a:hover {
+	background-color: #3C7CCD;
+}
+
+
+
+.float_right{
+	float: right;
+	padding-left: 10px;
+}
+
+body{
+	width: 80%;
+	background-color: white;
+	font-size: medium;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	magin: auto;
+}
+
+footer{
+	background-color: #5092C1;
+	height: 50px;
+	padding: 10px;
+	margin: auto;
+	font-family: 'Player Display', serif;
+	color: white;
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+h1{
+	color: green;
+}
